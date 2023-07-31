@@ -1,0 +1,43 @@
+button {
+	background-color: tomato;
+	border: none;
+	border-radius: 30px;
+	box-shadow: 0 3px 3px 0 rgba(0,0,0,0.4),
+		0 0 2px 1px rgba(0,0,0,0.1);
+	cursor: pointer;
+	color: #fff;
+	margin: 14px 8px 30px;
+	transition: all 0.1s ease-in;
+	/* font-family: Arial, Helvetica, sans-serif; */
+	white-space: nowrap;
+}
+button:hover {
+	/*background-color: red;*/
+	box-shadow: 0 6px 6px 0 rgba(0,0,0,0.25),
+		0 0 4px 2px rgba(0,0,0,0.05);
+	transform: translateY(-2px);
+}
+button:focus { outline: 0; }
+footer {
+	border-top: 1px solid #ccc;
+	font-size: 0.9rem;
+	margin: 20px 0 30px;
+}
+#quiz {
+	background-color: #fff;
+	box-shadow: 0 3px 2px 1px rgba(0,0,0,0.2),
+		0 0 6px 3px rgba(0,0,0,0.05);
+	margin: 0 auto 30px;
+	padding: 20px;
+	/* width: 66%; */
+}
+#progress { float: left; }
+#score { 
+	float: right;
+	font-weight: bold;
+}
+
+.wp-btn-ans{
+	display: flex;
+	justify-content: center;
+}

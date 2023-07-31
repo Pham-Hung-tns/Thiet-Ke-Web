@@ -1,0 +1,43 @@
+<?php
+echo'
+ <section class="w3-stats pt-4 pb-5" id="stats">
+    <div class="container pb-md-5 pb-4">
+      <div class="title-main text-center mx-auto mb-md-5 mb-4" style="max-width:500px;">
+        <p class="text-uppercase">Our Statistics</p>
+        <h3 class="title-style">We are Proud to Share with You</h3>
+      </div>
+      <div class="row text-center pt-4">
+        <div class="col-md-3 col-6">
+          <div class="counter">
+            <img src="assets/images/icon-1.png" alt="" class="img-fluid">
+            <div class="timer count-title count-number mt-sm-1" data-to="30632" data-speed="1000"></div>
+            <p class="count-text">Students Enrolled</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="counter">
+            <img src="assets/images/icon-2.png" alt="" class="img-fluid">
+            <div class="timer count-title count-number mt-3" data-to="202" data-speed="990"></div>
+            <p class="count-text">Our Branches</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-md-0 mt-5">
+          <div class="counter">
+            <img src="assets/images/icon-3.png" alt="" class="img-fluid">
+            <div class="timer count-title count-number mt-3" data-to="3630" data-speed="1500"></div>
+            <p class="count-text">Total Courses</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-md-0 mt-5">
+          <div class="counter">
+            <img src="assets/images/icon-4.png" alt="" class="img-fluid">
+            <div class="timer count-title count-number mt-3" data-to="10000" data-speed="1500"></div>
+            <p class="count-text">Awards Won</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+'
+
+?>
